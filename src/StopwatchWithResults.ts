@@ -47,7 +47,7 @@ class StopwatchWithResults extends Stopwatch {
       .map((currentTime) => `<li><p>${currentTime}</p></li>`)
       .join(" ")}</ul>`;
 
-    this.dom.resultsList.insertAdjacentHTML("beforeend", resultHTMLElem as any);
+    this.dom.resultsList.insertAdjacentHTML("beforeend", resultHTMLElem);
   }
 
   protected addToList(): void {

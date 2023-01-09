@@ -105,7 +105,7 @@ abstract class Stopwatch {
 
     this.timer = setInterval(() => {
       this.step();
-    }, 1) as any;
+    }, 1) as unknown as number;
   }
 
   protected step(): void {
