@@ -77,6 +77,4 @@ class StopwatchWithResults extends Stopwatch {
   }
 }
 
-}
-
 export default StopwatchWithResults
